@@ -1,0 +1,44 @@
+.banner {
+    background: url("https://media.cntraveler.com/photos/5d965c8837c3f70009b85364/16:9/w_2560%2Cc_limit/airbnb-portland.jpg") center center;
+    height: 50vh;
+    position: relative;
+}
+
+.banner__info {
+    background-color: black;
+    color: white;
+    padding-top: 25vh;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    width: 300px;
+}
+
+.banner__info > button {
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    /* margin-top: 5px; */
+    font-weight: 600;
+}
+
+.banner__info > button:hover {
+    background-color: #fff;
+    color: #ff7779;
+}
+
+.banner__info > h5 {
+    margin-top: 10px;
+}
+
+.banner__searchButton {
+    background-color: #ffffff !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+}
+
+.banner__search {
+    display: flex;
+    flex-direction: column;
+}
